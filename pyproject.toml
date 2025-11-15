@@ -1,17 +1,10 @@
 
----
-
-### 2. `pyproject.toml`
-
-This file defines the project and its dependencies for `uv`.
-
-```toml
 [project]
-name = "covid-19-prediction-api"
+name = "covid-19-prediction"
 version = "0.1.0"
 description = "A simple FastAPI service to predict COVID-19 cases."
 authors = [
-    { name = HenryYao }
+    { name = 'HenryYao' }
 ]
 readme = "README.md"
 requires-python = ">=3.11"
@@ -26,3 +19,15 @@ dependencies = [
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+# Explicitly tell hatch which files to include in the wheel. The project
+# is a simple script-based repo (no top-level package dir), so list the
+# top-level scripts and data files here so hatch can build an editable wheel.
+include = [
+    "predict.py",
+    "train.py",
+    "README.md",
+    "notebook.ipynb",
+    "data/**",
+]
