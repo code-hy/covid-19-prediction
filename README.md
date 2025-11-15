@@ -74,8 +74,8 @@ The final path should be: `data/covid_19_clean_complete.csv`
 
 Once the server is running, you can access the interactive API documentation in your browser:
 
--   **Swagger UI**: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
--   **ReDoc**: [http://127.0.0.1:8000/redoc](http://127.0.0.1:8000/redoc)
+-   **Swagger UI**: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) or http://localhost:8000/docs
+-   **ReDoc**: [http://127.0.0.1:8000/redoc](http://127.0.0.1:8000/redoc) or http://localhost:8000/redoc
 
 ### Example API Request
 
