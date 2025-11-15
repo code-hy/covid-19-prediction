@@ -91,10 +91,10 @@ curl -X POST "http://127.0.0.1:8000/predict" \
 ```
 
 ### Example Screenshot of Swagger UI
-![Example Image](example_screen1.png)
+
 <img width="1492" height="919" alt="example_screen1" src="https://github.com/user-attachments/assets/8f5a71c2-11dd-4bc2-900f-16048cf32eeb" />
 
 
-![Next Image](example_screen2.png)
+
 <img width="1611" height="956" alt="image" src="https://github.com/user-attachments/assets/71e562c0-34f8-4fd7-97c2-4a1bb7dbc0cf" />
 
