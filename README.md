@@ -88,7 +88,7 @@ curl -X POST "http://127.0.0.1:8000/predict" \
   "country_region": "Italy",
   "days_since_first_case": 100
 }'
-
+```
 
 ### Example Screenshot of Swagger UI
 ![Example Image](example_screen1.png)
