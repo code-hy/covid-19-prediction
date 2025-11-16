@@ -16,9 +16,9 @@ COPY README.md .
 ENV PATH="/APP/.venv/bin:$PATH"
 
 # Copy the dependency file UV.LOCK AND PYTHON VERSION 
-COPY "pyproject.toml" "uv.lock" ".python-version" ./
+COPY "pyproject.toml"   ./
 
-RUN uv sync --locked
+##RUN uv sync --locked
 
 # Install dependencies
 # --system is used because we are not inside a virtual environment in the docker container
