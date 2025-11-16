@@ -9,6 +9,7 @@ COPY --from=ghcr.io/astral-sh/uv:latest /uv /bin/uv
 
 # Copy the dependency file
 COPY pyproject.toml ./
+COPY README.md .
 
 # Install dependencies
 # --system is used because we are not inside a virtual environment in the docker container
