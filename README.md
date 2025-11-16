@@ -68,7 +68,8 @@ The final path should be: `data/covid_19_clean_complete.csv`
     ```bash
     python predict.py
     ```
-    The server will start, typically on `http://127.0.0.1:8000`.
+    The server will start, typically on `localhost:8000/docs`.
+    <img width="673" height="239" alt="image" src="https://github.com/user-attachments/assets/51bea8e4-5b5d-499f-bca6-f04ef98c1632" />
 
 ## 🌐 Accessing the API
 
