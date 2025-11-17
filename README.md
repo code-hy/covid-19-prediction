@@ -62,7 +62,10 @@ The final path should be: `data/covid_19_clean_complete.csv`
     ```bash
     python train.py
     ```
-    You should see an output like: `Model trained successfully with R² score: 0.89`
+    You should see an output like: `Starting model training process...Training RandomForestRegressormodel...Model Training complete. Model saved as model.pkl Country coordinates data saved as country_coords.pkl`
+    
+
+   
 
 5.  **Run the FastAPI web service:**
     ```bash
