@@ -43,7 +43,7 @@ The final path should be: `data/covid_19_clean_complete.csv`
 1.  **Clone the repository and navigate into it:**
     ```bash
     git clone <your-repo-url>
-    cd covid-19-prediction-api
+    cd covid-19-prediction
     ```
 
 2.  **Create and activate a virtual environment using `uv`:**
